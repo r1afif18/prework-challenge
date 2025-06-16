@@ -1,4 +1,7 @@
 def scrape_leads(criteria=None):
+    """
+    Return hardcoded list of business leads for demo/testing pipeline.
+    """
     leads = [
         {"name": "Berlin Data GmbH", "website": "https://berlindata.de"},
         {"name": "Paris Analytics", "website": "https://parisanalytics.fr"},
